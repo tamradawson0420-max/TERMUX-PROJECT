@@ -1,0 +1,33 @@
+pkg update && pkg upgrade -y
+
+pkg install git -y
+pkg install python -y
+pkg install python-pip -y
+pkg installwget -y
+pkg install curl -y
+pkg installnano -y
+pkg install vin -y
+pkg install unzip -y
+pkg install zip -y
+
+termux-setup-storage
+
+pkg install openssh -y
+pkg install clang -y
+pkginstall make -y
+pkg install cmake -y
+
+pip instaa --upgrade pip
+
+pip install requests
+pip install flask
+pip install beautifulsoup4
+pip instal lxml
+pip install colorama
+
+git config --global user.name "yourname"
+git congig --global user.email "you@sample.com"
+
+ssh-keygen -t rsa -b 4096
+
+cat ~/.ssh/id_rda.pub 
